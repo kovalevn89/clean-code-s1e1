@@ -42,7 +42,7 @@ input, button {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -116,7 +116,6 @@ input, button {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -152,7 +151,7 @@ input, button {
 
 .item-todo > .task-input {
   vertical-align: middle;
-  width: 226px
+  width: 226px;
 }
 
 .delete-image {
@@ -168,18 +167,18 @@ input, button {
 
 /* Completed */
 #completed-tasks .task-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .item-todo .task-input {
-  display: none
+  display: none;
 }
 
 .edit-mode .task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list-todo .edit-mode .task-label {
