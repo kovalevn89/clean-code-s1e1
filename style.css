@@ -1,5 +1,6 @@
 /* style reset*/
-input, button {
+input,
+button {
   outline: none;
 }
 
@@ -54,11 +55,14 @@ input, button {
   padding: 0px;
 }
 
-.item-todo, .block-caption {
+.item-todo,
+.block-caption {
   list-style: none;
 }
 
-.add,.edit,.delete {
+.add,
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -68,7 +72,9 @@ input, button {
   cursor: pointer;
 }
 
-.add:hover,.edit:hover,.delete:hover {
+.add:hover,
+.edit:hover,
+.delete:hover {
   color: #3a3a3a;
 }
 
