@@ -1,6 +1,6 @@
 /* style reset*/
 input, button {
-  outline:none;
+  outline: none;
 }
 
 /* Basic Style */
@@ -50,12 +50,12 @@ input, button {
 }
 
 .list-todo {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .item-todo, .block-caption {
-  list-style:none;
+  list-style: none;
 }
 
 .add,.edit,.delete {
@@ -174,14 +174,14 @@ input, button {
 
 /* Edit Task */
 .item-todo .task-input {
-  display:none
+  display: none
 }
 
 .edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-todo .edit-mode .task-label {
-  display:none;
+  display: none;
 }
